@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.5
   bottom_navy_bar: ^6.0.0
   carousel_slider: ^4.0.0
+  readmore: ^2.1.0
+  animated_horizontal_calendar: ^0.0.3
 
 dev_dependencies:
   flutter_test:

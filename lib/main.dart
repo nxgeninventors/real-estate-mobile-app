@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage>
     setState(() {
       showRowWidget = false;
     });
-    // _nextScreen()
+    // _nextScreen();
   }
 
   void _nextScreen() {
