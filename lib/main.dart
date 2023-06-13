@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dashboardScreen.dart';
+import 'package:realty_kaching/loginRegisterPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Reakty',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+     // home: const MyHomePage(title: ' Home'),
+      home: LoginRegisterPage(),
     );
   }
 }
